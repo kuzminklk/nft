@@ -1,7 +1,7 @@
 
+
 ### Description
 Dynamic and static NFTs
-
 
 ### Technologies
 IPFS, SVG, Base64
