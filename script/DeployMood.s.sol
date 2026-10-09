@@ -1,17 +1,13 @@
-
-
 // SPDX-License-Identifier: MIT
 
 pragma solidity ^0.8.19;
 
-import { Script } from "forge-std/Script.sol";
-import { Base64 } from "@openzeppelin/contracts/utils/Base64.sol";
+import {Script} from "forge-std/Script.sol";
+import {Base64} from "@openzeppelin/contracts/utils/Base64.sol";
 
-import { Mood } from "../src/Mood.sol";
-
+import {Mood} from "../src/Mood.sol";
 
 contract DeployMood is Script {
-
 	string public HAPPY_EMODJI_SVG;
 	string public SAD_EMODJI_SVG;
 

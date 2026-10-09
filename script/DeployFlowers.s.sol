@@ -1,12 +1,9 @@
-
-
 // SPDX-License-Identifier: MIT
 
 pragma solidity ^0.8.19;
 
-import { Flowers } from "../src/Flowers.sol";
-import { Script } from "forge-std/Script.sol";
-
+import {Flowers} from "../src/Flowers.sol";
+import {Script} from "forge-std/Script.sol";
 
 contract DeployFlowers is Script {
 	function run() external returns (Flowers) {

@@ -1,14 +1,11 @@
-
-
 // SPDX-License-Identifier: MIT
 
 pragma solidity ^0.8.19;
 
-import { Mood } from "../src/Mood.sol";
-import { DeployMood } from "../script/DeployMood.s.sol";
+import {Mood} from "../src/Mood.sol";
+import {DeployMood} from "../script/DeployMood.s.sol";
 
-import { console, Test } from "forge-std/Test.sol";
-
+import {console, Test} from "forge-std/Test.sol";
 
 contract TestMood is Test {
 	DeployMood public deployer;
